@@ -12,9 +12,35 @@ I am an experienced chip designer with more than 8 years of design career. I am 
 English has been my working language for long and hence my proficiency of English is at the native level. I used to be one of the key personnel in multinationals of the non-silicon industries in earlier days of my career. 
 
 
-Website Development for the IC Industry
-=========================================
-I am developing a portal for the IC industry. Its aim is to provide users access to all key development on the research, development, design and manufacturing of IC technologies, that is almost the same thing as the report. Currently the website framework and the key coding are finished. 
+
+Website for the Latest Information of the World's IC Technology & Industry
+===========================================================================
+
+I am developing a portal for the IC industry. Its aim is to provide users access to all key development on the research, development, design and manufacturing of IC technologies. Following contents will be covered:
+
+Research on basic IC theory - research results of major universities and research institutions (including research institutions affiliated to large companies) in the world;
+Chip design: new chip design theory, algorithm, language, model, software (EDA) and platforms, new chip design results, including IP cores;
+Chip product development: model product development, testing and trial production (before mass production);
+Chip manufacturing: new manufacturing technologies and new technology nodes (including main processes, materials, processes, equipment, and software).
+
+Users can get the latest technical information on this website. At present, the basic framework and codes of the website are basically completed, and parts of the content are also published.
+
+There is no similar website in the world.
+
+In addition, the website has opened up a special database about modem chip IP cores, and users can browse the basic information of the main modem IP cores, which is the introduction of the main content of these IP cores. The main reason for designing such content is that I specially design the modem chip, so I pay special attention to this part of the technology.
+
+The other part of the website is to introduce the book about IP core design that I am writing now, written in English, with the title "Silicon IP-More than just Design". The main reason for the slow progress in writing is that there is too much work to do: developing and maintaining websites, designing IP cores, writing books on chips, business contacts, and other things.
+
+The website also introduces the "Monthly Report on World IC Technology Progress" compiled by me.
+
+The website has also opened a forum, waiting for you to settle in and publish your opinions.
+
+There are also search functions, conducting surveys, and user registration and user information management, uploading your own news (the progress of your company’s chip technology). The functions of the website will gradually increase and improve as the development progresses.
+
+If you are interested in participating in the website project, please feel free to contact us. You may invest in, or promote the website. However, the content of the website is currently only in English and is geared towards English-speaking countries. Whether the Chinese version will be added in the future depends on the situation. And the website cannot be accessed by domestic users for some reason.
+
+My goal is to build the best network platform to introduce the world's chip technology progress. If you want to understand the chip technology, you only need to go to this platform.
+
 
 
 Book titled “Silicon IP – More than just Design”
