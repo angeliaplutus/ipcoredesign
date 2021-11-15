@@ -1,0 +1,44 @@
+Design of Modem - Modulator & Demodulator - IP Cores
+========================================================
+
+My current design focuses on modulation and demodulation IC cores for satellite broadband Internet and wireless communications.I orient myself as one of the top modem (modulation + demodulation) IC designers for satellite broadband Internet. 
+
+I have been concentrating on satellite and wireless communications over the last couple of years, specializing in modulation and demodulation for satellite broadband and wireless communications in the DVB standard series. I have studied satellite and wireless communications over the last couple of years, concentrating on modulation and demodulation for satellite broadband uplink communications in the DVB standard series. I have designed a demodulator IP core based on FPGA and CMOS, and I am preparing for another modem IP core based on probably SDR/DSP etc. In addition I have been preparing for a book called "Modulation and demodulation IC design for satellite communications" with special focus on broadband Internet uplink and LEO satellites operating according to DVB standards. 
+
+My designs are involved in satellite / wireless communications, modulation and demodulation, error correction and coding technologies and some wireless communications technologies, as well as IC design technologies, tools and methodologies. I am developing my modem ICs with the latest reconfigurable technologies based mainly on FPGA. On the FPGA many processing units such as GPU, DSP are integrated which can make the modems compatible with as many communications protocols, standards and modulation schemes as possible. I've developed some separate IPs such as modulators, and demodulators and at the moment I am working on a modulator based in FPGA, HDL and others to cope with several modulation schemes such as BPSK, FSK, MSK, OQPSK, UQPSK  and for DVB S2X applications. The modem IPs are available as proprietorial IP products in the form of HDL codes or binary netlists, which can be integrated into modem blocks of other modem vendors.
+The IP cores can be incorporated into various terminals,  indoor and outdoor units and modems on the ground.  IPs available for sale or custom IPs can be designed based upon your specifications and requirements.
+
+Apart from the DVB standards of satellite communiations, my IP core design work has also been spreading to a wider ares of industry standards, among them also including the following:
+
+RDIF for IoT (Internet of Things)
+WiFi
+
+Other protocols over IoT:
+
+CELLULAR (5G)
+Bluetooth / Bluetooth Low Energy/ Bluetooth LE
+Cellular
+LoRa/LoRaWan
+LTE 
+NB-IoT
+NFC (Near Field Communication)
+UWB
+ZigBee  
+Z-Wave
+
+Rest of the Communications Protocols:
+
+ATSC	
+CDMA
+DATA-OVER-CABLE SERVICE INTERFACE SPECIFICATION (DOCSIS)
+DTMB	
+EDGE	
+GPRS
+GSM
+INTERNET PROTOCOL OVER SATELLITE (IPOS) 
+ISDB-T/C/S
+J.83B	
+TD-SCDMA
+WCDMA	
+WIMAX	
+WLAN	
