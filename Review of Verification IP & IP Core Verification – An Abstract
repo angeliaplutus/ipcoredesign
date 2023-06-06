@@ -1,0 +1,45 @@
+Review of Verification IP & IP Core Verification - An Abstract
+
+This book of â€œVerification IP & IP Core Verificationâ€ (except Verification Languages and Verification Methodologies) is part of the book family titled â€œSemiconductor IP Core â€“ Not Just Designâ€.
+
+This book, as a comprehensive review, treats some of the key topics involved in the verifications of IC and IP core design process, including the following chapters:
+
+DEFINITIONS
+EPILOG
+WHAT IS VERIFICATION INTELLECTUAL PROPERTIES (VIP)?
+WHAT IS INTELLECTUAL PROPERTIES VERIFICATION (IPV)?	
+VERIFICATION IP FOR IP VERIFICATION  
+DIFFERENCES BETWEEN VERIFICATION IP AND IP VERIFICATION 
+DIFFERENCES BETWEEN VERIFICATION INTELLECTUAL PROPERTY (VIP) AND (DESIGN) INTELLECTUAL PROPERTY (IP)
+VERIFICATION IP VS TESTBENCH	
+IMPORTANCE OF VERIFICATION IPS
+THE ROLE OF VERIFICATION IPS	
+BENEFITS OFFERED BY VERIFICATION IP	
+VIP INTEROPERABILITY	
+DIFFERENT STAGES OF IP VERIFICATION 
+HOW TO CUT VERIFICATION TIME WITH VIP?
+HOW CAN VERIFICATION IPS HELP THE SOC TESTING PROCESS?
+RELATIONSHIP BETWEEN HDL, HVL AND VM 
+SYSTEM-LEVEL VERIFICATION IP (SYSTEM VIP)
+VERIFICATION IP FOR COMPLEX DESIGNS
+VERIFICATION IP FOR SOCS	
+SYNTHESIZABLE VERIFICATION IP	
+ASSERTION-BASED VIP	
+CONFIGURABLE VERIFICATION IP	
+REUSABLE VERIFICATION IP / VERIFICATION IP REUSE METHODOLOGY 
+VERIFICATION IP DEVELOPMENT PROCEDURE
+VERIFICATION PLATFORMS 
+VERIFICATION IP DEVELOPMENT TOOLS
+VALIDATION OF POST-SILICON DEVICES USING VERIFICATION IP 
+HOW IS VIP USED?
+WHO USES VIP? 
+HOW TO SELECT VERIFICATION IP?
+VERIFICATION IP VIDEOS	
+VERIFICATION IP INFO PORTALS
+VERIFICATION IP DEVELOPERS
+VERIFICATION IP PRODUCTS	
+VERIFICATION IP LITERATURE
+
+This 760-page long introductory material will introduce readers to the major hardware verification concepts, technologies, development systems, and vendors, except verification languages and verification methodologies which will be presented in separate books. After reading, readers will become familiar with all key aspects of the IC and IP verification sectors. Hence it serves a perfect introductory material to this exciting area of technology.
+
+For details about the chapter contact the author for a complete text.
