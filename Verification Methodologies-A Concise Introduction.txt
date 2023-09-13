@@ -1,0 +1,35 @@
+Verification Methodologies-A Concise Introduction
+
+This book, “Verification Methodologies – A Concise Introduction” is part of the “Verification IP & IP Core Verification” of the book family titled “Semiconductor IP Core – Not Just Design”.
+
+This book investigates, treats and presents some of the key methodologies, tools, packages and libraries involved in the verifications of ICs and in particular semiconductor Intellectual Property (IP) core design process, including the following chapters:
+
+Verification Methodology – An Overview	
+Verification Methodology – An Introduction	
+Verification IP - The Role Of Methodology
+How To Choose A Verification Methodology	
+Verification Methodology For Standards-Based IP & SoC	
+Functional Verification Methodology	
+Formal Verification Methodology	
+Assertion-Based Verification	
+Other Ways To Do 'Verification'	
+Universal Verification Methodology (UVM) – Accellera/Cadence	
+Embedded UVM	
+UVM-UTEST	
+Open Source VHDL Verification Methodology (OSVVM)	
+UVVM: Universal VHDL Verification Methodology (UVM For VHDL)	
+Open Verification Methodology (OVM)	
+Verification Methodology Manual (VMM)	
+eVC Reuse Methodology (ERM)	
+Reference Verification Methodology (RVM)	
+Advanced Verification Methodology (AVM)	
+Universal Reuse Methodology (URM)	
+System Verification Methodology (SVM)
+cocotb	
+SVUnit	
+VUnit	
+OpenTitan	
+miniTB	
+Open Verification Library (OVL)	
+
+The main purpose of this introductory material is to help novice verifiers to get familiar with the most popular verification methodologies currently prevalent on the market. The key verification methodologies are UVM, OSVVM and cocotb, which I am using on daily basis. Some of the methodologies are no more in use and are basically the foundations of the new generations of methodologies, but it’s worthwhile having a quick review. Keep an eye on the current development of the hardware verification sector because it is an evolving industry, still at the rapid development both in technology and applications. Tools, conventional or not, are emerging on daily basis, therefore this booklet serves only as a starting point not a final reference. For this purpose I don’t include to many details of implementations.

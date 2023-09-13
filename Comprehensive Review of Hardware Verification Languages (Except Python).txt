@@ -1,0 +1,38 @@
+Comprehensive Review of Hardware Verification Languages (Except Python)
+
+The Abstract
+
+This section, “Comprehensive Review of Hardware Verification Languages (Except Python)” is part of the volume of “Verification IP & IP Core Verification” of the book family titled “Semiconductor IP Core – Not Just Design”.
+
+This book investigates, treats and presents some of the key hardware description and verification languages involved in the verifications of ICs and in particular semiconductor Intellectual Property (IP) core design process, including the following chapters:
+
+Hardware Verification Language – An Introduction
+High-Level Verification Language (HVL)	
+Verification Career – Choice of Languages	
+SystemVerilog or System C: Industry Standard for Hardware Design and Verification?	
+What Is The Difference Between E And Vera?
+SystemVerilog	
+Verilog	
+VHDL	
+E Hardware Verification Language & Specman	
+SystemC	
+C, C++	
+Vera / Openvera	
+ABC A System For Sequential Synthesis And Verification	
+Dart	
+Java	
+Jeda	
+Kami	
+Maia	
+Meta-Functional Languages for Hardware Verification	
+Perl	
+PSL Property Specification Language (Psl) / Sugar	
+Portable Test And Stimulus (PSS)	
+Ruby	
+VLang	
+
+Python is introduced in a separate book, considering its particular position in the verification business.
+
+This 650+-page long introductory material will introduce readers to the major language packages and libraries dealing with the hardware verification needs, incl also prototyping, emulation and simulation. After reading, readers will become familiar with historic notes, key features, installation & configuration, usage, verification samples and results as well as their applications in the IC & IP Core verification sector. This is a comprehensive but introductory volume, for more detailed information, readers are advised to consult with the links and literature provided at the ends of each chapter. 
+
+Unlike hardware design, the hardware verification, in theory, can be carried out in any languages – programming or hardware specific, therefore you can find almost all popular languages in the book, albeit some of them are less known and less used. Please read the book in the chapter order, because at time of writing this is the order of importance of their application and popularity for hardware verification.

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Verification Intellectual Properties (VIP) </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<!- English Meta //-->
+<meta name="abstract" content="integrated circuits, IC design, IP core, quantum circuits,spintronics, superconducting circuits, research and design, development, manufacturing">
+<meta content="author" name="plutuse@tutanota.com">
+<meta name="keywords" content="integrated circuits, IC design, IP core, quantum circuits,spintronics, superconducting circuits, research and design, development, manufacturing">
+<meta name="description" content="ICTech specializes in integrated circuits, IC design, IP core, quantum circuits,spintronics, superconducting circuits, research and design, development, manufacturing">
+
+
+	
+	
+
+
+<link rel="stylesheet" href="../../../scripts/script.css" type="text/css">
+
+
+
+</head>
+
+<body>
+<table width="89%" border="0" align="center">
+  <tr>
+    <td><h2 align="center"><strong>What Is Verification Intellectual Properties (VIP)</strong>?</h2></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td><p><strong>Verification Intellectual Properties  (VIPs) – What Are They?</strong></p>
+      <p>VIPs are a complete package of verification  testbench which you can use to verify silicon design IPs. They are a  pre-packaged set of codes used for verification. They are nothing more than a  model that provides a means of user interaction at different levels of  abstraction of the underlying designs. </p>
+      <p>VIP is also a type of reusable IP that can  generate comprehensive tests for shortening SoC verification and increasing  test coverage. </p>
+      <p>Physically, VIPs are pre-defined functional  blocks that can be inserted into the testbenches used for verifying a design. With  VIP, the intent is to provide a specification for verification of the  functionality of a design block or full system.</p>
+      <p>In one word, VIP blocks can help in all  levels of verification as simulation models for the actual design IP. </p>
+      <p><strong>Why Verification Intellectual Properties  (VIPs)?</strong></p>
+      <p>The technology industry presents numerous  time-to-market and design quality challenges. Achieving one at the cost of the  other is all too common, however this tradeoff isn&rsquo;t inevitable. A focus on  &ldquo;right verification&rdquo; can boost both productivity and quality. The successful  design of any application from an individual intellectual property (IP) block  to an SoC (System-on-Chip) depends upon the right verification. With each move  from the chip level to board level and finally to system level, the cost of  detecting a defective chip increases by 10X. Sometimes it is not easy to judge  the correct verification methodology, and choosing the wrong one may cause  trouble later. Verification Intellectual Properties (VIP) provides the means to  get this right.</p>
+      <p>On the other hand, as IP designs are  trending in the semiconductor integrated devices, the need to test and verify  them is increasing enormously. Although most standard protocols and interface  IPs enable verification engineers to check basic features, such as system  start-up, yet VIPs enable more detailed exploration. This is becoming  increasingly important because of the growth in complexity of SoC designs. For  this need to be fulfilled, IP vendors came up with VIPs which are nothing but verification  intellectual properties. VIP has simplified the way in which verification  carried out of any complex designs under test/verification (DUTs)! </p>
+      <p>Moreover, verification engineers point to  the need for thorough code coverage and functional coverage within a well-integrated  flow. VIP supports a seamless coverage-driven verification flow with no  coverage gaps between simulation, emulation or formal verification. It is  usable at multiple stages in a design flow and by multiple suppliers to a  design project.</p>
+      <p><strong>VIP Importance</strong></p>
+      <p>As such, VIP is considered a valuable  component of a verification methodology as it describes libraries of reusable  verification components and pre-defined functional blocks instrumental in  validating the correctness of complex interfaces and protocols found in SoC  designs.</p>
+      <p>Furthermore, covering the alphabet of MIPI,  SerDes, automotive, memory models, networking, storage and video, VIPs remove  the need for experts in multiple protocols because they verify the design  against the details of the protocol specifications. Along the way, they improve  debug, quality and coverage closure, accelerate project delivery, increase  return on investment and reduce the risk of silicon respin.</p>
+      <p><strong>VIP Applications</strong></p>
+      <p>While VIPs are often used to verify  standard bus protocols, they also can be used for system performance analysis  and are increasingly being used with emulation, simulation, and virtual  prototyping.</p>
+      <p>VIPs can be used with emulation for  simulation acceleration and APIs. The simulation acceleration side uses  emulation to run faster with a UVM (Universal Verification Methodology) test  environment, very similar to the verification IP used with UVM, but not  targeted to run on an emulator.</p>
+      <p>VIP can also be used at multiple stages in  a design flow and by multiple suppliers to a design project.</p>
+      <p>There are also Verification VIPs to verify  PCIe, USB, SATA, SAS, Fiber Channel and Ethernet Protocols available in the  market!</p>
+      <p><strong>VIP Features</strong></p>
+      <p>An important feature of VIP is the inbuilt  developed protocol violation checker! There is a monitor integrated on  interface between Design and Verification IP! It can be used to monitor  transactions on bus and can be used to verify protocol rules automatically!  Also, protocol rules can be developed as part of verification IP! Whenever any  transactions are sent or received from DUT then in-built protocol checkers  developed in Verification IP can trigger error on protocol violation!  Verification IP can throw errors which are mapped to specification and can help  verification engineers to file bugs against design specification easily without  knowing the protocol specification without any detail! This method can provide  protocol checking on each transaction! Example, PCIe protocol violations can be  implemented as part of protocol checker from specification as part of  Verification IP! It can check for protocol rules mapped to specification on  every TLP(Traffic Light Protocol) and DLLP(Data Link Layer Packet) received  from design! It can pinpoint design bugs to designers! Designers can fix those  kinds of bugs mapped to specification easily!  </p>
+      <p><strong>VIP Categories</strong></p>
+      <p>VIPs can serve different purposes and based  on this we differentiate three main categories.</p>
+      <p>The main engine inside verification IP is  the <em>Transactor</em> model — sometimes called masters  and slaves, sometimes just called VIPs, and in some flows called agents — that  are the elements that can get told by a UVM, or whatever approach is being  used, to write the test vectors. Transactors are modules that establish communication  channel between software part of testbench (HDL Simulator, Virtual Platform,  etc.) and the design. Transactor&rsquo;s communication channel is implemented with  use of high level messages that are translated by the BFM(Bus Functional Modeling)  into correct standard interface protocol signaling. The testbench can inject  bus transfers or respond to transfer requests using transactor. Comprehensive  VIP should be configurable and also provide errors injection and handling  functionality.</p>
+      <p><em>Monitors</em> are  conceptually similar to Transactors and they are used in soft-testbench but  have only a monitoring/read-only capability. Their BFM can capture and  recognize a standard interface signaling protocol and translate it to higher  level messages that can be collected and sent to the testbench for analysis or  debugging purposes.</p>
+      <p><em>Speed Adapters</em><strong> </strong>are used to connect design running in  emulator with external hardware i.e. real devices. Their primary functionality  is to synchronize emulation clock domain with real devices that usually have  higher clock rates. Complex interfaces usually require proper synchronization  in the protocol layer.</p>
+      <p><strong>VIP Compositions</strong></p>
+      <p>VIP blocks normally consists of bus  functional models, stimulus generators, protocol monitors, and functional  coverage blocks. Since a lot of industry design testbenches follow different  languages (like SystemVerilog, C, specman) and methodologies (OVM-Open  Verification Methodology, UVM), these VIPs are generally designed as  configurable components that can be configured and easily integrated into  different verification environments.</p>
+      <p>VIP may be a set of assertions for  verifying a bus protocol.</p>
+      <p>Or it could be a module intended to be used  within a defined verification methodology, such as UVM (Universal Verification  Methodology). This would often contain stimulus sequences, bus functional  models, a set of checkers, coverage model and other things associated with a  particular block in the design, such as a USB interface.</p>
+      <p><strong>VIP Deliverables &amp; Forms</strong></p>
+      <p>VIP blocks for emulation and FFGA  prototyping, for example, come as synthesizable register transfer level (RTL)  code. Full API compatibility moves designs from simulation to emulation. These  VIP blocks include built-in intelligent debuggers, offer fast compile and  system-level simulation run times and fast firmware/software development. The  infrastructure framework or testbench comes with stimulus generators, monitors,  scoreboards/checkers and functional coverage models.</p>
+      <p><strong>VIPs and Simulation / Emulation  Platforms</strong></p>
+      <p>Within a simulation platform, VIP should  not be tied to a specific simulator. Within an emulation platform, VIP should  not be tied to an emulator. Similarly, VIP should not be tied to a specific  formal engine. For an ideal design, VIP needs to be platform agnostic and, even  within the platform, verification engine agnostic for verification engineers to  move from platform to platform seamlessly without any overhead in the process.</p>
+      <p><strong>VIPs and Testbenches</strong></p>
+      <p>A testbench for a complex SoC requires a  variety of VIP blocks to verify system-level functionality and validate target  performance by generating application-specific traffic and checkers. These VIPs  are to be inserted into the design test bench to complete the verification  process - to check the operation of protocols and interfaces, both discretely  and in combination. They enable verification engineers to inspect basic  features, such as system start-up or more detailed exploration. They generate  tests that stimulate and verify different interfaces and standard bus  protocols, such as transactions/sequences, drivers and configuration  components. A test plan for a specific interface and test suites connects to a  design under test/verification (DUT) inside the testbench to simulate or  emulate an IP or an SoC design. The result is an infrastructure for  industry-standard interface and interconnect protocol support and a known  reference to compare with the DUT.</p>
+      <p><strong>VIP Selection</strong></p>
+      <p>Choosing the correct VIP, which involves  judging its recipe and verification methodology, is as tough as choosing a  design IP. The right methodology improves the ability to abstract underlying  complexity while increasing reusability, ease of debugging and bug fixing, and  maintenance. </p>
+      <p><strong>VIP Development</strong></p>
+      <p>The VIP design life cycle is very similar  to the regular IP in VLSI but the purpose of the VIP is to verify the design  only. </p>
+      <p>VIPs can be developed in System Verilog,  System C, UVM or other languages and technologies! </p>
+      <p>VIPs are developed with various  configurations to verify various aspects of designs! These kinds of  configuration mechanisms allow the same VIP to work in different modes! For example,  PCIe VIPs can be configured to work as switch, endpoint, or root complex with  configuration parameters! It makes integration and verification of various  designs in simple ways! It makes testbench development simpler compared to any  other modes of verification!</p>
+      <p>Understanding how to build a lasting VIP is  a challenge given changing technologies and market conditions. </p>
+      <p>VIPs are developed by premier companies  like Cadence, Synopsys, Mentor Graphics, PerfectVIPs and many more! </p>
+      <p>The EDA community has worked hard to  produce new methodologies to address requirements for verification.  These include improved simulation  performance, debug features, and advanced verification strategies. The biggest  area of potential is in advanced verification techniques. These include  transaction-level modeling and support, integrated assertion support, and  testbench techniques. These approaches enable the IP users to achieve  performance and compliance goals.</p>
+    <p>Don&rsquo;t forget though, VIPs are worth  millions of dollars in terms of license coasting to customers! </p></td>
+  </tr>
+  <tr>
+    <td><p align="left">&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p align="left">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>    </td>
+  </tr>
+</table>
+</body>
+</html>

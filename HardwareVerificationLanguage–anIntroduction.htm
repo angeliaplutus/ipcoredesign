@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Hardware Verification Language – an Introduction </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<!- English Meta //-->
+<meta name="abstract" content="integrated circuits, IC design, IP core, quantum circuits,spintronics, superconducting circuits, research and design, development, manufacturing">
+<meta content="author" name="plutuse@tutanota.com">
+<meta name="keywords" content="integrated circuits, IC design, IP core, quantum circuits,spintronics, superconducting circuits, research and design, development, manufacturing">
+<meta name="description" content="ICTech specializes in integrated circuits, IC design, IP core, quantum circuits,spintronics, superconducting circuits, research and design, development, manufacturing">
+
+
+	
+
+	
+
+
+<link rel="stylesheet" href="../../../mybook/scripts/script.css" type="text/css">
+
+
+
+</head>
+
+<body>
+<table width="100%" border="0" align="center">
+  <tr>
+    <td align="center"><h2><a>Hardware  Verification Language – an Introduction</a></h2></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p>A hardware verification language, or HVL,  is a programming language used to verify the designs of electronic circuits  written in a hardware description language (HDL). HVLs typically include  features of a high-level programming language like C++ or Java as well as  features for easy bit-level manipulation similar to those found in HDLs. Many  HVLs will provide constrained random stimulus generation, and functional  coverage constructs to assist with complex hardware verification. If HDLs meant  for designing, then HVLs meant to verify those HDL codes.</p>
+      <p>Now to the question, why do we need HVLs?  This is related to the software domain. As software became more and more  complex, people moved from assembly to procedural languages like BASIC and C  among others. However, writing and maintaining huge programs was still  difficult. This was when people developed the object oriented programming  paradigm. OOP is certainly a revolutionary development that has made it possible  for computer programs to abstract a real world problem at unprecedented levels.  It makes writing a program more efficient and also maintaining and expanding  it.</p>
+      <p>In normal practice we write HDL codes for  our design and use Test Benches (also written in HDLs) to verify our designs.  We have gate counts increasing every day, thus the challenge to verify them. In  the past the verification was done with languages which were meant for  designing. We created &quot;testbenches&quot; that applied predetermined stimuli  to models of our designs and the generated outputs were compared with the  expected outputs provided by the designers. This was possible since the digital  circuits follow Boolean logic, their outputs can be predicted. It is possible  to write a computer program which does this and this is exactly what happens in  simulation.</p>
+      <p>At those days verification environments  were implemented in almost every programming language you can think of —  C, Pascal, Verilog, scripts…. What could you do with these  languages? You could, for example, write a long file with input (i.e. a list of  CPU instructions) and inject them one by one into the device under test (DUT).  The designs then were much smaller than they are today, so most engineers were  happy with these testbenches.</p>
+      <p>Years went by, designs got bigger and more  complex, writing test benches with HDLs which are primarily meant for designing  will not help in verifying your circuits with higher gate density, and the EDA  industry realized that the old methodology of directed tests did not scale and  that, for creating more sophisticated verification environments, a special  language was needed. That&rsquo;s why in today&rsquo;s ASIC world they use different  languages to verify your designs. Those are called HARDWARE VERIFICATION  LANGUAGES (HVLs).</p>
+      <p>Although some HDLs have a sort of HVL  built-in. For example, VHDL has a number of language constructs that are not intended  to be used in synthesis of hardware but can be used in a testbench to stimulate  or analyze other code in simulation. However, HDLs like VHDL or Verilog were  primarily targeted towards the RTL design and behavioral modeling. They were  not really designed with the functional verification requirements in mind.</p>
+      <p>In 1996, Specman was introduced to the  public— at DAC 1996 in Las Vegas. This introduction was not simply of a new  tool — it was the introduction of a new concept. Specman included e, and thus,  with that introduction, the first Hardware Verification Language was born. In  2005, a new standard, SystemVerilog was created too.</p>
+      <p>And now there are different verification  languages available, among them, e, SystemVerilog, SystemC and OpenVera are the  most commonly used HVLs. Basically they make use of object oriented programming  (among other less important things) to write testbenches at a high level of  abstraction thus making the verification process more robust and quicker.</p>
+      <p>HVLs tend to be somewhat of a hybrid  between HDL and scripting languages. Whereas HDLs are intended to be  synthesizeable into a circuit, HVL is intended to be run as software, providing  stimulus either to actual hardware or simulated hardware (from HDL) in order to  verify correct functionality of the Hardware.</p>
+      <p>With HVLs we apply the OOP technique into  the domain of hardware verification. We do so by making it possible to verify a  design at a higher level of abstraction. At the same time, they contain  features that are especially adapter for verification, rather than to write  synthesizable code.</p>
+      <p>The use of standards based verification  languages, such as SystemC and Sugar/PSL, provides designers access to key analytical  functions such as transactions and assertions, which enable the validation of  complex functional behavior.</p>
+      <p><strong>So, what should an HVL language contain?</strong></p>
+      <p>HVLs shall be able to provide 2 important  features. These are concurrent assertions and constrained-random testing. Like  assertion checks that an expression is true at a given time, a concurrent  assertion checks to make sure that a sequence in which signal toggles is  correct. Rather than having to write every single piece of stimulus that must  be applied to a design under verification, constrained-random testing applies  all possible stimulus that fits constraint given by the verification engineer,  overtime. This saves a lot of time in writing stimulus.</p>
+      <p>For interaction with RTL designs, HVLs  should have a notion of time and some means to connect to the device under  test. (In the early days of e, &ldquo;tick access&rdquo; was used; ports were added a few  years later.)</p>
+      <p>For creating interesting scenarios while  minimizing manual work, the HVLs should have randomization capabilities, so  that the long, directed input files can be replaced with short tests containing  a small number of constraints. Engineers need more than a simple &ldquo;randomize a  value between 0 and 100.&rdquo; Verification environments need to be able to define  complex relations between fields, including fields of different structs. </p>
+      <p>Generating the environment with a  constraint solver saves lots of time when you are creating the tests. It also  reduces the maintenance burden (adding one constraint, rather than changing  hundreds of tests) and results in a more robust verification environment. Have  you seen directed tests that are 10 years old, and nobody dares to modify them  because nobody remembers what their purpose was at first place?</p>
+      <p>But more than that, generating the  environment was a part of a new (it was new in the 1990s) verification  methodology – Coverage Driven Verification. According to CDV, you let the tools  work for you. You define the protocol rules and the verification goals and run  random tests. Every once in a while, you analyze the coverage reports and  decide which constraints need be added to extend the generation to uncovered  areas.</p>
+      <p>Here below we briefly present some of the  key features of the mainjor HVLs.</p>
+      <p><strong>SystemVerilog (1985 Gateway Design  Automation / Cadence / Co-Design Automation / Synopsys / 2002 Accellera / IEEE)</strong><br>
+        HILO-2/Occam parallel-processing language -&gt;  Verilog / (1985) - &gt;Superlog(1998) -&gt; SystemVerilog(2002)</p>
+      <p>SystemVerilog, standardized as IEEE 1800,  is a hardware description and hardware verification language used to model,  design, simulate, test and implement electronic systems. SystemVerilog is based  on Verilog and some extensions, and since 2008 Verilog is now part of the same  IEEE standard. It is commonly used in the semiconductor and electronic design  industry as an evolution of Verilog.</p>
+      <p>SystemVerilog started with the donation of  the Superlog language to Accellera in 2002 by the startup company Co-Design  Automation. The bulk of the verification functionality is based on the OpenVera  language donated by Synopsys. In 2005, SystemVerilog was adopted as IEEE  Standard 1800-2005. In 2009, the standard was merged with the base Verilog  (IEEE 1364-2005) standard, creating IEEE Standard 1800-2009. The current  version is IEEE standard 1800-2017.</p>
+      <p>The feature-set of SystemVerilog can be  divided into two distinct roles:<br>
+        SystemVerilog for register-transfer level (RTL) design is an  extension of Verilog-2005; all features of that language are available in  SystemVerilog. Therefore, Verilog is a subset of SystemVerilog.<br>
+        SystemVerilog for verification uses extensive object-oriented  programming techniques and is more closely related to Java than Verilog. These  constructs are generally not synthesizable.</p>
+      <p>SystemVerilog language is a combination of  concepts of multiple languages. SystemVerilog language components are,<br>
+        Concepts of Verilog HDL<br>
+        Testbench constructs based on Vera<br>
+        OpenVera assertions<br>
+        Synopsys&rsquo; VCS DirectC simulation interface to C and C++<br>
+        A  coverage application programming interface that provides links to coverage  metrics</p>
+      <p>&nbsp;</p>
+      <p><strong>e Hardware Verification Language (1996, Verisity  / Cadence)</strong><br>
+        Developer: Yoav Hollander of Verisity (an Israelian  company later acquired by Cadence Design Systems)<br>
+        Year of release: at the 1996 Design  Automation Conference.</p>
+      <p>Features<br>
+        Random and constrained random stimulus generation<br>
+        Functional coverage metric definition and collection<br>
+        Temporal language that can be used for writing assertions<br>
+        Aspect-oriented programming language with reflection capability<br>
+        Language is DUT-neutral in that you can use a single e testbench to  verify a SystemC/C++ model, an RTL model, a gate level model, or even a DUT  residing in a hardware acceleration box (using the UVM Acceleration for e  Methodology)<br>
+        Can create highly reusable code, especially when the testbench is  written following the Universal Verification Methodology (UVM)</p>
+      <p>Specman is provided as the tool/compiler/debugger  to work with E language.</p>
+      <p>&nbsp;</p>
+      <p><strong>OpenVera (2001, Sun Micro Systems / Synopsys)</strong><br>
+        Substituted by SystemVerilog<br>
+        Vera -&gt; OpenVera -&gt; SystemVerilog<br>
+        OpenVera&rsquo;s predecessor was Vera. </p>
+      <p>Vera language was originally developed in  Sun Micro Systems for internal ASIC verification projects. Later VERA language  with VERA compiler was marketed by System Science. System Science later sold  Vera to Synopsys. Synopsys released closed Vera language as OpenVera in 2001,  which was later implemented in VCS as NTB. Currently OpenVera is supported by  @hdl Simulator, and VCS Compiler.</p>
+      <p>Later Synopsys donated parts of Vera  language to Verilog to give Verilog unified design and Verification feature.  This new language is called SystemVerilog.</p>
+      <p>OpenVera is a hardware verification  language intended to make modeling and testing of complex systems more  efficient. It is part of an open source initiative, headed by Synopsys, that  will benefit many industries where time to market is a critical factor.</p>
+      <p>OpenVera is an interoperable, open hardware  verification language for testbench creation. The OpenVera language was used as  the basis for the advanced verification features in the IEEE Std. 1800  SystemVerilog standard, for the benefit of the entire verification community  including companies in the semiconductor, systems, IP and EDA industries along  with verification services. </p>
+      <p>&nbsp;</p>
+      <p><strong>SystemC (2000,</strong> <strong>Accellera/IEEE)</strong></p>
+      <p>SystemC is a set of C++ classes and macros  which provide an event-driven simulation interface (see also discrete event  simulation). These facilities enable a designer to simulate concurrent  processes, each described using plain C++ syntax. SystemC processes can  communicate in a simulated real-time environment, using signals of all the  datatypes offered by C++, some additional ones offered by the SystemC library,  as well as user defined. In certain respects, SystemC deliberately mimics the  hardware description languages VHDL and Verilog, but is more aptly described as  a system-level modeling language.</p>
+      <p>SystemC is applied to system-level  modeling, architectural exploration, performance modeling, software  development, functional verification, and high-level synthesis. SystemC is  often associated with electronic system-level (ESL) design, and with  transaction-level modeling (TLM).</p>
+      <p>SystemC is defined and promoted by the Open  SystemC Initiative (OSCI — now Accellera), and has been approved by the IEEE Standards  Association as IEEE 1666-2011 - the SystemC Language Reference Manual (LRM).  The LRM provides the definitive statement of the semantics of SystemC. OSCI  also provide an open-source proof-of-concept simulator (sometimes incorrectly  referred to as the reference simulator), which can be downloaded from the OSCI  website. Although it was the intent of OSCI that commercial vendors and  academia could create original software compliant to IEEE 1666, in practice  most SystemC implementations have been at least partly based on the OSCI  proof-of-concept simulator.</p>
+      <p>SystemC has semantic similarities to VHDL  and Verilog, but may be said to have a syntactical overhead compared to these  when used as a hardware description language. On the other hand, it offers a  greater range of expression, similar to object-oriented design partitioning and  template classes. Although strictly a C++ class library, SystemC is sometimes  viewed as being a language in its own right. Source code can be compiled with the  SystemC library (which includes a simulation kernel) to give an executable. The  performance of the OSCI open-source implementation is typically less optimal  than commercial VHDL/Verilog simulators when used for register transfer level  simulation.</p>
+      <p>&nbsp;</p>
+      <p><strong>Property Specification Language (PSL/Sugar)  (2004, Accellera / IEEE)</strong></p>
+      <p>Property Specification Language (PSL) is a  temporal logic extending linear temporal logic with a range of operators for  both ease of expression and enhancement of expressive power. PSL makes an  extensive use of regular expressions and syntactic sugaring. It is widely used  in the hardware design and verification industry, where formal verification  tools (such as model checking) and/or logic simulation tools are used to prove  or refute that a given PSL formula holds on a given design.</p>
+      <p>PSL was initially developed by Accellera  for specifying properties or assertions about hardware designs. Since September  2004 the standardization on the language has been done in IEEE 1850 working group.  In September 2005, the IEEE 1850 Standard for Property Specification Language  (PSL) was announced.</p>
+      <p>Property Specification Language can be used  with multiple electronic system design languages (HDLs) such as:</p>
+      <p>     VHDL (IEEE 1076)<br>
+        Verilog (IEEE 1364)<br>
+        SystemVerilog (IEEE 1800)<br>
+        SystemC (IEEE 1666) by Open SystemC Initiative (OSCI).</p>
+    <p>When PSL is used in conjunction with one of  the above HDLs, its Boolean layer uses the operators of the respective HDL.</p><p align="left">&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p align="left">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>    </td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>    </td>
+  </tr>
+</table>
+</body>
+</html>
