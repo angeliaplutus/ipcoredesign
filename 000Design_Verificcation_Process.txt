@@ -1,0 +1,101 @@
+
+Design Verificcation Process
+
+This book, "Design Verificcation Process" is used to control the overall design and verification processes and projects for all types of ICs and all phases of my design processes. For example, the previous books titled "Hardware Verification for AMS Design" and "Hardware Verification Planning - A Concise Introduction" are parts of the top level design and verification project.
+
+Therefore it talks about everything relevant to design and verification, and thus more abstracted at higher level.
+
+This books is basicaly organized according to the design and verification sequences from the very beginning of specification development and architecture design down to the physical verification and IC validation. I personally am involved in the front-end design at the moment up to synthesis, while at my earlier years of design I was more involved in the backend design. At those days I was more or less a researcher rather than a designer, for my then focus was on the theoretic fundamentals for placement and routing, especially for the detailed routine with graph theory and combinational optimization. I have also written a great number of books on those subjects.
+
+I am only pleased if you would discuss with me about some of the topics listed below. I am not an expert on all topics, but I am right now more or less focused on verification, specifically verification for the front-end design with AI and ML - Artificial Intelligence and Machine Learning. My design is centered around AMS circuits, that is, Analog and Mixed Signal circuits, for my very purpose of IC design career was, is and will always be to design some of the best ICs and IP cores for the modulation and demodulation components of satellite broadband Internet, particularly the DVB S2/S2X/RCS2 protocols (Digital Video Broadcasting - Satellite), such as those being deployed by StarLinks.
+
+
+ANALOG-ON-TOP FLOW  
+
+EDA TOOLS	
+
+HARDWARE VERIFICATION FOR ANALOG AND MIXED SIGNAL	
+
+AMS VERIFICATION PROCESS	
+
+ANALOG AND MIXED SIGNAL DESIGN
+
+MACHINE LEARNING FOR HARDWARE VERIFICATION	
+
+MACHINE LEARNING FOR ANALOG AND MIXED SIGNAL VERIFICATION	
+
+
+GOOD DESIGN PRACTICES	
+
+
+VERIFICATION APPROACHES	
+
+Bottom-Up Verification Approach Preferred	
+
+VERIFICATION STEPS	
+
+VERIFICATION PLANNING	
+
+Verification Planning Methodology	
+Identifying Right Methodology	
+
+FORMAL VERIFICATION	
+
+Formal Verification Methodologies For Analog/Mixed-Signal Systems	
+Formal Verification Flow For Initial Netlists
+Formal Verification Tool	
+
+
+UVM	
+
+UVM Languages	
+UVM Tools	
+
+DESIGN SPECIFICATIONS	
+
+
+DESIGN ARCHITECTURE	
+
+Architecture And Implementation Of Efficient Testbenches	
+Architecture Vs Specification Verification – Architecture Simulation	
+
+DESIGN MICROARCHITECTURE	
+
+Microarchitecture Vs Architecture Verification	
+
+DESIGN CONSTRAINTS	
+
+Design Constraints Verification	
+Analog Design Constraints Verification	
+Analog Design Constraints Checking	
+Tools	
+
+
+RTL VERIFICATION	
+
+Verilog AMS	
+VHDL AMS	
+How To Write Verilog Testbench	
+
+GATELEVEL-VERIFICATION	
+
+NETLIST AFTER SYNTHESIS VERIFICATION - LOGIC SIMULATION	
+
+POST-NETLIST (AFTER P&R) VERIFICATION = PHYSICAL VERIFICATION	
+
+EDA Tools	
+Physical Verification	
+Netlist Verification after P&R	
+Post-Layout Simulation	
+
+
+PRE-SILICON DESIGN VERIFICATION	
+
+
+POST-SILICON DESIGN VALIDATION	
+
+
+DEBUGGING	
+
+
+

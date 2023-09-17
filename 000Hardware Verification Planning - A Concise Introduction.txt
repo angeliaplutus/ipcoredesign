@@ -1,0 +1,128 @@
+
+Hardware Verification Planning - A Concise Introduction
+
+The topics listed below are things I have considered over the last years during my implementation of several verification projects with my clients worldwide. Like anything else I have done or I am doing, I always write down all key points of the jobs and in the end they become a book of some sorts, that's why I have written hundreds of books amounting to tens of thousands of pages. But I have published none, for they are not written for publication or any other reasons. If I publish anything, that must be historic.
+
+Verification is a huge topic, involving wide range of design, scientific and engineering fields. It's not a one-man business, insteat it requirs a great team to do some great jobs. 
+
+Siemens has organized a verification academy, yes, we need an academy to research some of the most important areas of this critical process of the IC design. I cannot talk about all these topics in my books or essays, I can also not talk about all the topics listed below right now. They are of huge volume. 
+
+If anyone is interested in any of the subjects below, or beyond, you may raise your questions to me here or through my websites. Or we can organize some special groups to talk about verification or some specific topics of the verification technologies.
+
+
+VERIFICATION PLANNING	
+Machine Learning For Verification Planning	
+
+VERIFICATION PLANNING TOOLS	
+
+VERIFICATION PLAN	
+Executable Verification Plan	
+Performance Verification Plan	
+Transforming Verification Plan Into An Active Specification	
+
+VERIFICATION PLAN AUTOMATION	
+
+RISKS AND DEPENDENCIES	
+
+PLANNING REUSE	
+Separate Reusable And Non-Reusable Features	
+
+COMPLETION CRITERIA	
+
+REQUIRED TOOLS	
+
+BUDGET	
+
+RESOURCE REQUIREMENTS	
+
+SCHEDULE	
+
+VERIFICATION STRATEGY	
+
+DYNAMIC VERIFICATION (SIMULATION)	
+
+STATIC VERIFICATION （FORMAL ANALYSIS）	
+
+DESCRIPTION OF THE VERIFICATION LEVELS	
+
+VERIFICATION LANGUAGES	
+
+VERIFICATION REQUIREMENTS	
+
+VERIFICATION FLOW	
+
+VERIFICATION ENVIRONMENT	
+
+TESTBENCH ARCHITECTURE	
+
+HOW TO VERIFY ?	
+
+WHAT TO VERIFY ?	
+
+CONTENTS OF THE VERIFICATION PLAN	
+
+DESIGN REQUIREMENTS	
+
+ARCHITECTURE VERIFICATION	
+
+MICROARCHITECTURE VERIFICATION	
+
+SPECIFICATION ANALYSIS	
+Top-Down Analysis	
+Bottom-Up Analysis	
+Behavioral Analysis	
+Failure Analysis	
+
+FUNCTIONS TO BE VERIFIED	
+Functional Requirements	
+Identify The Feature Set Of The Design	
+Functional Closure	
+
+COVERAGE ANALYSIS	
+Coverage Requirements	
+Coverage Plan Writing Process	
+Functional Coverage Vs. Code Coverage	
+Functional Coverage Planning	
+Coverage Plan	
+Identifying Coverage Goals	
+Coverage Model Design	
+Implementation	
+
+
+STIMULUS GENERATION PLAN	
+
+CHECKS OR ASSERTION PLAN	
+Checker Plan	
+Checks Plan Writing Process	
+Location Of Check Implementation	
+Checks Location Pyramid	
+Traceability Of Checks	
+Checks In BFM Vs. Bus Monitor	
+
+TEST PLAN	
+What Is Test Plan?	
+Test Plan Writing Process	
+Test Plan Vs Verification Plan[Vplan]	
+How To Write Test Plan ?	
+What Are Some Of Prerequisites To Be Met Before Writing Test Plan?	
+Who Should Write The Test Plan?	
+What Should Be Referred For Writing The Test Plan?	
+Why Test Plan Writer Needs To Know About Verification Strategy?	
+Who Are Stakeholders Of A Test Plan?	
+How Test Plan Should Be Organized?	
+Test Cases	
+Test Bench Coding	
+Test Case Execution	
+
+
+POST PROCESSING	
+
+PLANNING POST-SILICON	
+
+UPDATE THE VERIFICATION PLAN	
+
+REVIEWS	
+
+
+
+

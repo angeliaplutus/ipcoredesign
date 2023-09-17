@@ -1,0 +1,116 @@
+
+Hardware Verification Tools - A Review
+
+My friends, I have collected a list of verification tools for both formal and functional verifications, as a result of my verification project implementation with several of my clients, for mostly AMS circuits in the RF and wireless communications applications. AMS stands for Analog and Mixed Signal, is defined as electronic circuits comprising of both analog and digital components. There are further categories as to which kind of components is of dominating roles to play, such as digital on top or analog on top or equally distributed.
+
+The list is not complete, not without mistakes, but can probably give you a glimpse of how intensive are these tools in the work of hardware verification. It seems there are quite a lot of them, both free and commercial. I myself have tasted some of them, both free and paid ones. Some commercial tools are really bloody expensive, which I cannot afford to buy. There are some free and opensource tools which are really doing the job pretty well. 
+
+Please be so kind as to tell me if this list gives you some useful information about the tools we can use for our verification jobs, which you are using right now, and what are their pros and cons. I don't have a complete review yet, but I do have some information about most of these tools, and the data are being updated along with my verification career.
+
+Here below is the collection. They are divided into three categories, Formal, Functional and Cadence Special, because the last is of so much importance that it deserves a special chapter.
+
+
+FORMAL VERIFICATION TOOL	
+==========================
+
+SymbiYosys	
+LEMA 
+Mathematica	
+Matlab	
+Cadence	
+Synopsys 
+	Formality
+	Spyglass Lint	
+Siemens Mentor 
+	Questa FV	
+	Questa Autocheck	
+Spice Simulator	
+Maple	
+Microsoft Sage	
+Onespin	
+Sixthsense Formal Verification 
+Agnisys ARV-Formal
+MathSAT5	
+EBMC Model Checking 
+CBMC Model Checking	
+LLBMC Model Checking	
+Checkmate	
+PVS Theorem Prover 
+STP Simple Theorem Prover	
+HOL4 Theorem Prover	
+Isabelle/Hol Automated Theorem Prover  
+The Phaver Tool	
+The SpaceEx Tool	
+The Workcraft Toolset	
+Coho Tool 
+Reveal	
+UpPaal	
+Metitarski  
+Nuxmv 
+Nusmv2 
+
+
+FUNCTIONAL VERIFICATION - UVM TOOLS
+======================================
+	
+CADENCE	
+	Xcelium Logic Simulation  
+SYNOPSYS	
+	VCS / VC SpyGlass	
+	VC SoC AutoTestbench	
+	VC Formal Regression Mode Accelerator with ML	
+	Euclide	
+SIEMENS Mentor Graphics	
+	Symphony Mixed-Signal Platform	
+	Calibre Design Solutions	
+	Modelsim Starter 
+	Questa Sim 
+	Veloce	
+AMD XILINX	
+	Vivado ML	
+	Vivado Simulator WebPack Version 
+	ISE Simulator	
+INTEL ALTERA	
+	Quartus Prime Software 
+	Altera ModelSim 
+
+Cocotb and Python	
+Verilator	
+Icarus Verilog	
+Veriwell Verilog Simulator	
+CVC Verilog Simulator	
+PVSim Verilog Simulator	
+Metrics Cloud Simulator	
+YosysHQ	
+EDAPlayground	
+Aldec Active-HDL
+WinSpice	
+Axiom MPSIM	
+FinSim	
+Super-FinSim	
+Lifting	
+Smash	
+Silos	
+Veritak	
+VIDE	
+Synapticad	
+Parc	
+GPL Cver	
+
+
+CADENCE TOOLS	
+==================
+
+	Cadence Mixed-Signal Solutions	
+	Cadence Xcelium Logic Simulator	
+	Cadence Verisium / JedAI	
+	Cadence Verisium Manager	
+	Cadence ncsim	
+	Cadence NCVerilog	
+	Cadence Incisive Enterprise Simulator	
+	Cadence Incisive Formal Verifier
+	Cadence Jasper
+	Cadence JasperGold	
+	Cadence Conformal LEC
+	Cadence SMV, symbolic model checker
+

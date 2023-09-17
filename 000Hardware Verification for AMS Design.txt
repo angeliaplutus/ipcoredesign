@@ -1,0 +1,106 @@
+
+Hardware Verification for AMS Design
+
+Verification for AMS circuits is not the same as verification of digital ICs, because of the analog part. Generally it is more challenging, more complex and more time-consuming.
+
+AMS circuits may be written in different HDLs than pure digital circuits, and its verification parts may also be written in special, AMS unique languages.
+
+Synthesis, simulation and verification may demand on special technologies and algorithms.
+
+Therefore, verifying AMS IC and IP cores need specific attention. 
+
+If you are designing and verifying AMS circuits from scratch, consider use AMS specific HDLs and HVLs;
+
+At the same time, you have to think about the availability of simulation and verification tools and platforms for your chosen HDLs and HVLs. Not all of them are provided with handy EDA tools at the moment. If you want to use free source or open source tools, the choice is even much restricted.
+
+AMS asks for more indepth studies of the circuitry, and decide which strategy to apply - either digital centric or analog priotirized. Both of them may need different strategy.
+
+You shall consider the roles AI and ML can play in speeding up and improving the verification process, because without their uses the time it takes to complete the verification may prove to be unbearable. And AI/ML may improve the performance as well.
+
+These and many others are the points I have been considering during my implementation of several verification projects. Your commentss and proposals are always welcome!
+
+
+HARDWARE DESIGN & VERIFICATION LANGUAGES FOR ANALOG AND MIXED SIGNAL	
+
+Windows Command Scripts	
+Windows Batch Scripts	
+NIX Shell Scripts	
+SPICE / FASTSpice	
+Spectre	
+Matlab  	
+TCL	
+Java	
+Python	
+SystemHDL	
+System A	
+C/C++	
+SystemC-A		
+SystemC AMS	
+VERILOG - RELEVANT	
+Verilog-A and Verilog-AMS
+SystemVerilog	
+SystemVerilog / RNM	
+SV-AMS (SystemVerilog -AMS)	
+Verilog -AMS 
+Verilog -AMS/WREAL	
+Verilog-A	
+VHDL-AMS	
+Real Number Modeling (RNM)	
+
+
+ANALOG MIXED SIGNAL VERIFICATION METHODOLOGY	
+Plan-Based Analog Verification Methodology	
+
+
+AMS VERIFICATION PROCESS	
+
+
+TOOLS AND PLATFORMS	
+Open Source Hardware And EDA Tools For Analog Mixed-Signal Design And Prototyping	
+
+CADENCE	
+Cadence Verisium 
+Cadence AMS Simulator	
+Virtuoso® AMS Environment	
+Synopsys	
+Synopsys ZeBu® emulation and prototyping system	
+VCS®/VCSi™ /	VC SpyGlass®AI	
+
+Siemens / Mentor Graphics	
+Analog Mixed-Signal Verification	
+ModelSim	
+Analog FastSPICE Platform	
+Eldo Platform	
+Questa ADMS	
+Symphony Pro platform	
+
+YOGITECH	
+AMS vKit	
+PyRTL	
+PyTorch	
+
+
+ARTIFICIAL INTELLIGENCE & MACHINE LEARNING FOR AMS VERIFICATION	
+
+Machine Learning For Analog And Mixed Signal Verification  	
+Hybrid Verification For Analog And Mixed-Signal Circuits  	
+
+COVERAGE	
+
+Acceleration Of Hardware Code Coverage Closure Using Machine Learning	
+
+
+STIMULUS	
+
+Machine Learning-Guided Stimulus Generation for Functional Verification	
+Stimulus Optimization In Hardware Verification Using Machine-Learning	
+
+CONSTRAINED RANDOM VERIFICATION	
+
+Optimization of Constrained Random Verification using Machine Learning	
+
+MASK SYNTHESIS	
+
+Machine Learning for Mask Synthesis and Verification	
+
+
