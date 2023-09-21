@@ -1,0 +1,131 @@
+
+ICs and  IP Core Design Vendor for Modem (Modulators and Demodulators)
+
+Listed according to the order of standards and protocols they are complying with
+
+I have studied most of the modem developers in my areas of specialities and industries, before making my own designs. Here below is the listing.
+
+
+POSSIBLE CODES AND PROJECTS FOR MY IP CORES	
+
+MOST POPULAR TELECOMMUNICATIONS STANDARDS PROTOCOLS	
+
+GENERIC USE ASIC	
+
+	ACORNTECH.COM	
+	IPRIUM	
+	NTLAB.COM	
+
+GENERIC USE – FPGA BASED	
+
+	ARTEC DESIGN	
+	ATH SYSTEM, S.R.O.	
+	COMBLOCK   
+	LATTICE  
+	MAINTECH - MODEM IP CORES	
+	RADIO GIGABIT	
+	UNISTRING TECH SOLUTIONS   
+	ZIPCORES   
+
+ANALOG TV DEMODULATOR/DECODER IP CORE	
+
+	T2M	
+	ATSC DEMODULATOR/DECODER IP CORE	
+	COMMSONIC IP CORE	
+	IPRIUM	
+	MVD	
+	T2M	
+
+
+CCSDS	
+
+	INGENIARS
+
+	
+DOCSIS	
+
+	T2M	
+
+DTMB DEMODULATOR/DECODER IP CORE	
+
+	T2M	
+
+
+DVB S2/S2X MODEM IP CORES / DVB S2X RCS2 MODEM	
+
+	Advantech	
+	Creonic	
+	Korean Electronics and Telecommunications Research Institute	
+	NSSLGlobal-Technologies STM Nera Satlink	
+	SATCOM-SERVICES / SpaceBridge	
+	satixfy.com	
+	LAAS  
+	German Aerospace Center (DLR)  
+	TNO, Netherlands	
+	National and Kapodistrian University of Athens	
+	Durban University of Technology (DUT), Durban, South Africa  
+	University of Brasília	
+
+	COMBLOCK.COM   
+	COMMSONIC LTD  
+	CREONIC - IP CORES FOR THE DVB-S2X STANDARD  
+	FRAUNHOFER  
+	INCISE.IN  
+
+
+DVB T2/T/S2/S and C Demodulator IP	DVB T2/T Demodulator IP	
+
+	IPRIUM - DVB S2X MODEM IP CORES	
+	MAINTECH - DVB S2X MODEM IP CORES  
+	MINDWAY-DESIGN.COM 
+	MVD-FPGA  
+	RADIOGIGABIT 
+	SILICON INFUSION 
+	T-2-M.COM  
+	VIASAT 
+
+
+EPCGLOBAL ISO 18000-6B/18000-4.1	
+
+CHIPUS MICROELECTRONICS
+	
+	IBS TECHNOLOGY HK	
+
+
+IEEE 802.15.3 WIRELESS PAN STANDARDS	
+
+	COMMSONIC IP CORE	
+
+
+Universal QAM/PSK modulator  IEEE 802.16.X WIRELESS MAN-SC STANDARDS	
+
+	COMMSONIC IP CORE	
+
+
+Universal QAM/PSK modulator  
+
+ISCB-T	
+	T2MIP	
+ISDB-S3	
+	COMMSONIC IP CORE	
+	T2MIP	
+ISDB-T	
+	COMMSONIC IP CORE	
+MVD	
+	T2M	
+ITU-T J.83B FOR POINT-TO-POINT MICROWAVE COMMUNICATION SYSTEMS	
+	IPRIUM LLC	
+	MVD	
+MOCA	
+	T2MIP	
+WIFI	
+
+WIMAX	
+	MIMOWAVES	
+WLAN	
+	MIMOWAVES	
+ZIGBEE	
+	MIMOWAVES	
+
+
+
