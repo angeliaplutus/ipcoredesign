@@ -1,0 +1,141 @@
+Modem Design Methodologies
+
+There are always millions of ways to do the same job, no exception to IC and IP core design.
+
+For example for satellite and general modem (modulator + demodulator) design, I have studied the following possibilities of technology screening. Which ones to choose, completely depends on your project target and resources at your hand, and don't forget the time-to-market and cost considerations.
+
+
+
+VLSI DESIGN FLOW & EDA TOOLS
+
+	1) HDL	 
+	2) LOGIC ANALYZER	 
+	3) SIMULATIONS	 
+	4) SYNTHESIS	 
+	5) DESIGN VERIFICATION	 
+	6) MODELING	 
+	7) COMPILE	 
+	8) DESIGN PLATFORMS	 
+
+
+BER (BIT ERROR RATE)	 
+
+
+FPGA BASED	 
+
+	XILINX 
+	ALTERA 
+	MATLAB/SIMULINK + MODELSIM + SDR
+	MATLAB + COWARE’S SIGNAL PROCESSING DESIGNER
+	ACTIVE-HDL + MATLAB	
+
+
+
+ASIC DESIGN	
+ 
+	MENTOR GRAPHICS	 
+	CADENCE	
+	SYNOPSYS	 
+	MATLAB SIMULINK	 
+	ADS (ADVANCED DESIGN SYSTEM)	 
+	ADS (ADVANCED DESIGN SYSTEM) + MATLAB	 
+
+
+
+PARALLEL	   
+
+
+
+CORDIC BASED MODULATOR	
+
+
+RECONFIGURABLE	 
+
+
+MODEL-BASED DESIGN METHODOLOGY	 
+
+
+CPU	 
+
+
+GPP BASED	 
+
+ 	 
+GPU (GRAPHICAL PROCESSING UNIT) BASED	 
+
+
+DSP (DIGITAL SIGNAL PROCESSOR) BASED 
+ 
+
+SYSTEM-ON-CHIP	 
+	 (SoC) + FPGA	
+
+
+SOFT MODEM	 
+
+
+SOFTWARE DEFINED RADIO TECHNIQUES
+
+	 
+SOFTWARE DEFINED RADIO SYSTEMS + FPGA	 
+
+	SDR + DSP	
+	SDR + DSP OR GPP (GENERAL PURPOSE PROCESSOR)	
+	SDR + DSP + FPGA	
+	SDR + GPP (GENERAL PURPOSE PROCESSOR)	
+	SDR + GPU (GRAPHICS PROCESSING UNITS) 
+	GNU radio+ general purpose processor (GPP)	 
+
+	GNURadio	
+	MatLab Simulink	
+	BDR	
+	BladeRF SDR	
+	Coresonic’s DSP-processor	
+	CubeSat SDR	
+	CubicSDR	
+	Ettus	
+	FMComms2/3/4	
+	GalioT	
+	GeminiAlpha SDR	
+	GNSS Software Receiver for Microscope	
+	GNU radio	
+	Harris SDR	
+	Icera Software Defined Radio (SDR) technology	
+	JPL SDR	
+	LimeSDR	
+	LimeSDR Mini	
+	Marmote SDR	
+	Namuru V1,2,3 SDR	
+	NI USRP RIO Software Defined Radio	
+	NVIDIA SDR	
+	PlutoSDR	
+	RFSOM	
+	Sora	
+	spectrum SDR-3000	
+	TinySDR	
+	Universal Software Radio Peripheral N210	
+	XSRP platform	
+	Zynq system-on-chip (SoC) FPGA-based SDR platform	
+	μSDR	
+
+
+
+ADAPTIVE MODEM	
+
+	ADAPTIVE CODING AND MODULATION	
+	VARIABLE CODING AND MODULATION	
+
+
+POLYPHASE MODEM	
+
+
+IP SATELLITE MODEM	
+
+
+
+PATHWAVE SYSTEM	
+
+
+
+SYNCHRONIZATION ARCHITECTURE	
+
