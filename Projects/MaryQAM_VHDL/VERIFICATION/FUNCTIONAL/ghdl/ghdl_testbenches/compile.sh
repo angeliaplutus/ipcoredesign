@@ -1,7 +1,6 @@
 #!/bin/bash
 #Created to verify and compile vhdl files using ghdl compiler under OS X
 #Project: 4-QAM Modulator 
-#Author: Astro
 
 echo "******************"
 echo "START Of Simulation"
@@ -13,7 +12,7 @@ printf "Processing Source Files:\n\t | ddfs.vhd\n\t | ddfs_lut_4096.vhd\n\t | fu
 printf "Processing testbench Files\n\t | tb_QAM_Hierarchical.vhd\n"
 echo "---------------------------------------------------"
 echo "[DEBUG]: Setting Up Path"
-export PATH=$PATH:/Users/beapple/Downloads/ghdl-0.36-macosx-mcode/bin
+export PATH=$PATH:/Users/newworld/Downloads/ghdl-0.36-macosx-mcode/bin
 echo "[DEBUG]: Cleaning binaries"
 ghdl --clean
 
