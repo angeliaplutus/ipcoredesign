@@ -1,0 +1,30 @@
+The Projects
+==========
+
+We have implemented various IC and IP core design and verification projects in the wireless communications, mainly in the areas of modulation and demodulation.
+
+We have designed ICs and IP cores in various Hardware Design Languages (HDL) such as
+VHDL
+Verilog and its extentions and derivates
+as well as generic computer languages such as
+Python and Python packages
+Java
+C/C++ and others.
+
+We have applied different design methodologies for those projects, including but not limited to:
+
+ASIC
+FPGA
+SDR - Software Defined Radio
+DSP - Digital Signal Processor
+GPU
+CPU
+and a number of other technologies.
+
+We have also conducted verifications in various technologies, tools and stages of the design from specification to physical design, with technology such as 
+Formal verification
+Functional verification.
+
+Our verifications are carried out on different simulators, both free/open source and commercial.
+
+Artificial Intelligence (AI) and Machine Learning (ML) technologies are also considered when carrying our design and verification, that is, when choosing EDAs for design and verification, we favor those with AI/ML algorithms to those without AI/ML.
