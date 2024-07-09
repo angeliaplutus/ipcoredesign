@@ -65,7 +65,5 @@ http://markchen.int.eu.org/personal/writing2018uptonow.pdf
 My Complete CV
 http://markchen.int.eu.org/personal/ResumeEN2023Academic.pdf 
 
-
-Mark Chen
-http://www.ipcoredesign.net/
+This repo and the site of  http://www.ipcoredesign.net/  are no more being updated. Please refer to https://github.com/worldsoft998  for the latest development.
 
